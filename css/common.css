@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{box-sizing: border-box; font-family: 'Noto Sans KR', sans-serif;}
+html, body{margin: 0; padding: 0;}
+header, section, article, aside, main, nav, footer{display: block;}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none;}
+
+
+/* header */
+header{}
+header .wrap{width: 1200px; height: 70px; margin: 0 auto; padding: 0 10px; display: flex; justify-content: space-between; align-items: center;}
+
+header .wrap .logo{}
+header .wrap .logo a{}
+header .wrap .logo a img{display: block; height: 40px;}
+
+header .wrap .menu{}
+header .wrap .menu ul{display: flex;}
+header .wrap .menu ul li{margin-left: 40px;}
+header .wrap .menu ul li a{display: block; font-size: 16px; text-transform: uppercase; color: #555;}
+header .wrap .menu ul li:hover a{color: #000;}
+
+
+/* footer */
+footer{background: #555;}
+footer .wrap{width: 1200px; padding: 40px 0; margin: 0 auto;}
+footer .wrap .f_t{}
+footer .wrap .f_t ul{display: flex;}
+footer .wrap .f_t ul li{margin-right: 40px;}
+footer .wrap .f_t ul li a{display: block; font-size: 14px; line-height: 30px; color: #fff; margin-bottom: 20px; padding: 0 10px;}
+
+footer .wrap .f_C{display: flex;}
+footer .wrap .f_C div{width: calc(100% / 3); height: 60px;}
+footer .wrap .f_C div p{
+    font-size: 12px; padding: 0 10px; color: #fff;
+}
+footer .wrap .f_C div.left_f{margin-right: 200px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
